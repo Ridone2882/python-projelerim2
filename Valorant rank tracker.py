@@ -126,7 +126,7 @@ while True:
             kd = kill_toplam / death_toplam
             print("Genel K/D orani:", round(kd, 2))
         elif kill_toplam > 0:
-            print("Genel K/D: Hic olum yok!")
+            print("Genel K/D: Hic ölüm  yok!")
         else:
             print("K/D hesaplamak icin mac verisi yok.")
 
@@ -141,9 +141,9 @@ while True:
                 print(i + 1, "-", maclar[i])
 
     elif secim == "4":
-        print("Programdan cikiliyor. Iyi oyunlar!")
+        print("Programdan cıklıyor. iyi oyunlar!")
         break
 
     else:
-        print("Hatali secim yaptin, tekrar dene!")
+        print("Hatali secim yaptın, tekrar dene!")
 
