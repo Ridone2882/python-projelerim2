@@ -6,7 +6,7 @@ ranklar = ["Iron", "Bronze", "Silver", "Gold",
            "Platinum", "Diamond", "Ascendant",
            "Immortal", "Radiant"]
 
-print("Hangi ranktasin?")
+print("Hangi ranktasın?")
 print()
 
 for i in range(len(ranklar)):
@@ -15,13 +15,13 @@ for i in range(len(ranklar)):
 rank_no = int(input("Rank numaran: "))
 
 while rank_no < 1 or rank_no > 9:
-    print("Hatali secim yaptin!")
+    print("Hatali secim yaptın!")
     rank_no = int(input("Rank numaran: "))
 
-puan = int(input("Mevcut RR puanin (0-99): "))
+puan = int(input("Mevcut RR puanın (0-99): "))
 
 while puan < 0 or puan > 99:
-    print("Puan 0 ile 99 arasinda olmali!")
+    print("Puan 0 ile 99 arasında olmalı!")
     puan = int(input("Mevcut RR puanin (0-99): "))
 
 galibiyet = 0
@@ -36,21 +36,21 @@ while True:
     print()
     print("1 - Mac sonucu gir")
     print("2 - Istatistiklerime bak")
-    print("3 - Gecmis maclari gor")
-    print("4 - Cikis")
+    print("3 - Gecmis macları gor")
+    print("4 - Cıkıs")
     print()
 
     secim = input("Ne yapmak istiyorsun? ")
     print()
 
     if secim == "1":
-        sonuc = input("Mac sonucu (kazandi/kaybetti): ").lower()
+        sonuc = input("Mac sonucu (kazandı/kaybettı): ").lower()
 
-        if sonuc != "kazandi" and sonuc != "kaybettş":
-            print("Hatali mac sonucu!")
+        if sonuc != "kazandu" and sonuc != "kaybettş":
+            print("Hatalı mac sonucu!")
             continue
 
-        kill = int(input("Kac kill aldin? "))
+        kill = int(input("Kac kill aldın? "))
         death = int(input("Kac kere oldun? "))
         rr = int(input("Bu macta kac RR degisti? "))
 
