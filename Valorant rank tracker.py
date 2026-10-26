@@ -2,9 +2,7 @@
 print("===== VALORANT RANK SISTEMI =====")
 print()
 
-ranklar = ["Iron", "Bronze", "Silver", "Gold",
-           "Platinum", "Diamond", "Ascendant",
-           "Immortal", "Radiant"]
+ranklar = ["Iron", "Bronze", "Silver", "Gold","Platinum", "Diamond", "Ascendant", "Immortal", "Radiant"]
 
 print("Hangi ranktasın?")
 print()
